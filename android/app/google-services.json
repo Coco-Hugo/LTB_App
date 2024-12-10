@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "583775806105",
+    "project_id": "lets-talk-business-app",
+    "storage_bucket": "lets-talk-business-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583775806105:android:e3ef469e578a4d032e0e08",
+        "android_client_info": {
+          "package_name": "com.example.ltbApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdcjnCyTVbILRG6_HEhpXb7ctdO95aRGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583775806105:android:dc4afef2486d4f742e0e08",
+        "android_client_info": {
+          "package_name": "com.ltb.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdcjnCyTVbILRG6_HEhpXb7ctdO95aRGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
