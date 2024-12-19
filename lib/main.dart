@@ -1,8 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:kakao_flutter_sdk/kakao_flutter_sdk.dart';
-import 'package:ltb_app/screens/home_screen.dart';
 import 'package:ltb_app/screens/login_screen.dart';
+import 'package:ltb_app/widgets/navbar.dart';
 import 'firebase_options.dart'; // Firebase config if you're using Firebase
 
 void main() async {
@@ -28,11 +28,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Kakao Login Example',
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData(
+          scaffoldBackgroundColor: const Color(0xFF181818),
+          primarySwatch: Colors.indigo),
       home: const LoginScreen(),
       routes: {
-        '/home': (context) => const HomeScreen(), // Define your home screen
+        '/home': (context) => const MainScreen(), // Define your home screen
       },
     );
   }
